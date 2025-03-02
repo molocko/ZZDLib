@@ -15,13 +15,21 @@ repositories {
         url = 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/'
     }
 
-
-    maven {
-        name = 'sonatype'
-        url = 'https://oss.sonatype.org/content/groups/public/'
+    repositories {
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
+
+
+
+//    maven {
+//        name = 'sonatype'
+//        url = 'https://oss.sonatype.org/content/groups/public/'
+//    }
     //mavenLocal() // This is needed for CraftBukkit and Spigot.
 }
+
+
 
 
 // ...
