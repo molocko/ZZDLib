@@ -35,6 +35,7 @@ public class Funcs {
 
     public static String colorize(String msg) {
         msg = msg.replaceAll("<aqua>", "&b").replaceAll("<red>", "&c").replaceAll("<green>", "&a").replaceAll("<yellow>", "&e").replaceAll("<blue>", "&9").replaceAll("<pink>", "&d").replaceAll("<black>", "&0").replaceAll("<white>", "&f").replaceAll("<gray>", "&7").replaceAll("<darkgray>", "&8").replaceAll("<gold>", "&6").replaceAll("<purple>", "&5").replaceAll("<darkred>", "&4").replaceAll("<darkblue>", "&1").replaceAll("<darkgreen>", "&2").replaceAll("<darkaqua>", "&3");
+        msg = msg.replaceAll("<reset>", "&r").replaceAll("<bold>", "&l").replaceAll("<italic>", "&o").replaceAll("<underline>", "&n").replaceAll("<strike>", "&m").replaceAll("<magic>", "&k");
         return ChatColor.translateAlternateColorCodes('&', msg);
     }
     public static void atEnable(JavaPlugin jp, String log) {

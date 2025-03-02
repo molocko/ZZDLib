@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'io.BM'
-version = '0.1'
+version = '0.11'
 apply plugin: 'java'
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

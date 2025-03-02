@@ -12,7 +12,7 @@ public class Main extends JavaPlugin {
     public void onEnable() {
         instance = this;
 
-        log.info("ZZDlib Enabled");
+        log.info("ZZDLib Enabled");
         log.info("Developed by BM");
 
 

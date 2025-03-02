@@ -1,6 +1,6 @@
 main: dev.EX.Main
 name: ZZDLib
-version: 0.1
+version: 0.11
 description: just lib idk
 api-version: '1.20'
 
